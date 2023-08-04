@@ -1,19 +1,21 @@
-import logo from './Vector.svg';
+import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" width={120} height={80} />
-       
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
         <a
           className="App-link"
-          href="https://www.propelleraero.com/dirtmate/"
+          href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Click here
+          Learn React
         </a>
       </header>
     </div>
